@@ -78,10 +78,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 51
+        "__id__": 55
       },
       {
-        "__id__": 52
+        "__id__": 56
       }
     ],
     "_prefab": null,
@@ -171,7 +171,7 @@
       "array": [
         0,
         0,
-        355.28407101805135,
+        342.2532501472093,
         0,
         0,
         0,
@@ -232,7 +232,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "MenuPre",
+    "_name": "MenuNode",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -260,7 +260,13 @@
         "__id__": 45
       },
       {
-        "__id__": 48
+        "__id__": 47
+      },
+      {
+        "__id__": 49
+      },
+      {
+        "__id__": 52
       }
     ],
     "_active": true,
@@ -550,7 +556,7 @@
       "ctor": "Float64Array",
       "array": [
         -16.872,
-        -18.747,
+        26.298,
         0,
         0,
         0,
@@ -558,7 +564,7 @@
         1,
         1,
         1,
-        0
+        1
       ]
     },
     "_eulerAngles": {
@@ -1093,7 +1099,7 @@
       "ctor": "Float64Array",
       "array": [
         -16.872,
-        -116.229,
+        -91.115,
         0,
         0,
         0,
@@ -1101,7 +1107,7 @@
         1,
         1,
         1,
-        0
+        1
       ]
     },
     "_eulerAngles": {
@@ -1636,7 +1642,7 @@
       "ctor": "Float64Array",
       "array": [
         -16.872,
-        -206.212,
+        -209.139,
         0,
         0,
         0,
@@ -1644,7 +1650,7 @@
         1,
         1,
         1,
-        0
+        1
       ]
     },
     "_eulerAngles": {
@@ -2165,8 +2171,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -12.48,
-        43.116,
+        -11,
+        85.609,
         0,
         0,
         0,
@@ -2224,7 +2230,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "enemyFloating_1",
+    "_name": "playerBlue_swim1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 5
@@ -2234,9 +2240,197 @@
     "_components": [
       {
         "__id__": 46
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 44,
+      "height": 53
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -11,
+        -34.854,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "07A8E0T4dLQaj/8I8Ulx5l"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "b465bb3c-a5a2-47e4-849b-26a1249b851d"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": "74gfl+58BC4o9IjqBpD5Jj"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "playerRed_swim1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 5
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 48
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 47,
+      "height": 50
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -11,
+        -151.318,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "d54t5jWLZMpaOr+yiWwjYv"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 47
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "925c7586-d818-4507-811f-31644c3430df"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": "c8T0NbTSRJvL1W3koDH7bM"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "enemyFloating_1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 5
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 50
       },
       {
-        "__id__": 47
+        "__id__": 51
       }
     ],
     "_prefab": null,
@@ -2292,7 +2486,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 45
+      "__id__": 49
     },
     "_enabled": true,
     "_materials": [
@@ -2324,7 +2518,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 45
+      "__id__": 49
     },
     "_enabled": true,
     "_defaultClip": {
@@ -2349,10 +2543,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 49
+        "__id__": 53
       },
       {
-        "__id__": 50
+        "__id__": 54
       }
     ],
     "_prefab": null,
@@ -2408,7 +2602,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 48
+      "__id__": 52
     },
     "_enabled": true,
     "_materials": [
@@ -2440,7 +2634,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 48
+      "__id__": 52
     },
     "_enabled": true,
     "_defaultClip": {

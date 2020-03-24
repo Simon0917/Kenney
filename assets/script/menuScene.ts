@@ -19,7 +19,7 @@ export default class menuScene extends cc.Component {
     }
 
     onBtnStart(){
-        console.log('change to main scene!')
+        cc.director.loadScene('mapConfirmScene')
     }
 
     onBtnSet(){
