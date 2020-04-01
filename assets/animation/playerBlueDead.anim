@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerBlueDead",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "213a20a7-80d6-464b-ae02-2e4e56091896"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

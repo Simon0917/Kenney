@@ -1,39 +1,32 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "enemyFloat",
+  "_name": "playerBlueJump",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.8,
+  "_duration": 0.6,
   "sample": 5,
   "speed": 1,
-  "wrapMode": 2,
+  "wrapMode": 1,
   "curveData": {
-    "paths": {},
     "comps": {
       "cc.Sprite": {
         "spriteFrame": [
           {
             "frame": 0,
             "value": {
-              "__uuid__": "703b11c1-d845-4458-8459-47de84f7ad07"
+              "__uuid__": "83a08b4f-c079-4099-b39c-8f30b6467a95"
             }
           },
           {
             "frame": 0.2,
             "value": {
-              "__uuid__": "4151c350-f927-48e9-ac92-035ec185fd82"
+              "__uuid__": "53ea47c4-6a99-4fa7-92af-3cc8a089b398"
             }
           },
           {
             "frame": 0.4,
             "value": {
-              "__uuid__": "0f37452e-30a8-41e2-9568-fe6e61c76ed6"
-            }
-          },
-          {
-            "frame": 0.6,
-            "value": {
-              "__uuid__": "da68a5f5-df8e-423d-831b-800e502d2fd3"
+              "__uuid__": "1596f84f-1a27-470e-99c2-b2cc3f991a0b"
             }
           }
         ]

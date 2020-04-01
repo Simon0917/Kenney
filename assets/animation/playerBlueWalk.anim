@@ -1,39 +1,44 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "enemyFloat",
+  "_name": "playerBlueWalk",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.8,
+  "_duration": 1,
   "sample": 5,
   "speed": 1,
   "wrapMode": 2,
   "curveData": {
-    "paths": {},
     "comps": {
       "cc.Sprite": {
         "spriteFrame": [
           {
             "frame": 0,
             "value": {
-              "__uuid__": "703b11c1-d845-4458-8459-47de84f7ad07"
+              "__uuid__": "f73f94c6-6feb-40a7-b902-0b45ae46d434"
             }
           },
           {
             "frame": 0.2,
             "value": {
-              "__uuid__": "4151c350-f927-48e9-ac92-035ec185fd82"
+              "__uuid__": "65afa161-b9a2-415f-b4e5-84ea2362f4df"
             }
           },
           {
             "frame": 0.4,
             "value": {
-              "__uuid__": "0f37452e-30a8-41e2-9568-fe6e61c76ed6"
+              "__uuid__": "55947ec8-ea09-4a9c-a8e9-c0686e8b7aeb"
             }
           },
           {
             "frame": 0.6,
             "value": {
-              "__uuid__": "da68a5f5-df8e-423d-831b-800e502d2fd3"
+              "__uuid__": "87a01531-422a-4494-beb6-e8ec908ae7ae"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "8178a419-e003-45af-96bc-8069cc3421b1"
             }
           }
         ]
